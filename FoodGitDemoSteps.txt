@@ -1,0 +1,91 @@
+1. Team Leader creates local repository  FoodGit
+2. Team Leader adds food.html to repository
+3. Team Leader publishes local repository FoodGit to online GitHub repository
+4. Team Leader adds collaborators to FoodGit  (Settings/Add Collaborators)
+5. Team Leader creates branch "DEVELOP" from master
+6. MemberA clones develop & creates branch "RED MEAT" from develop
+7. MemberB clones develop & creates branch "FRUITS VEGETABLES" from develop
+  
+MEMBER A -WORKS ON RED MEAT FEATURE
+8A-1 Member commit to RED MEAT - cow
+8A-2 Member commit to RED MEAT - bison
+8A-3 Member commit to RED MEAT - lamb
+8A-4 Member issues pull request to merge RED MEATS with develop
+
+MEMBER B -WORKS ON FRUITS VEGETABLE FEATURE 
+8B-1 Member commit to FRUITS VEGETABLE apple
+8B-2 Member commit to FRUITS VEGETABLE orange
+8B-3 Member commit to FRUITS VEGETABLE corn
+8B-4 Member commit to FRUITS VEGETABLE carrot
+8B-5 Member issues a pull request to merge FRUITS VEGETABLES with develop
+  
+9. Team Leader merges RED MEATS with develop
+10. Team leader adds food.css to develop
+  
+MEMBER A
+11A-1. Creates a branch named POULTRY from develop
+11A-2 Member commit to POULTRY chicken
+11A-3. Member commit to POULTRY turkey
+11A-4. Member issues a pull request to merge POULTRY with develop
+  
+  
+12. Team Leader merges FRUIT VEGETABLEs with develop
+13. Team Leader merges POULTRY with develop
+
+  
+14. Team Leader merges deveop with master
+15. Team Leader tags master
+  
+  
+ //---------------- food.html
+ <html>
+<head>
+</head>
+
+<body>
+  
+<h1> Food </h1>
+Food is any substance consumed to provide nutritional support for the body. 
+It is usually of plant or animal origin, and contains essential nutrients,
+such as fats, proteins, vitamins, or minerals.
+
+<p>Fruit
+</p>
+
+<p>Vegetables
+</p>
+  
+<p> Red Meat
+</p>
+
+<p> Poultry
+</html>
+//----------------------------------
+
+ 
+ 
+  
+  
+  
+
+
+// Update to include css
+<head>
+<link rel="stylesheet" type="text/css" href="food.css">
+</head>
+
+  
+ //------------------food.css -----------------------
+body {
+    background-color: #d0e4fe;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
